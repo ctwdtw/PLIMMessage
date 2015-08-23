@@ -40,6 +40,7 @@
     */
     
     [[PLIMLibrayAPI defaultLibrary] sendTextMessage:self.messageTextField.text toRecipient:self.chatMateId];
+    self.messageTextField.text = @"";
     
 #else
     // Modify Sinch's SDK, use call-back to update tableView,
@@ -119,26 +120,31 @@
     
     [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(keyboardWillHide:) name:UIKeyboardWillHideNotification object:nil];
     
-#if 1
+#if 0
     self.myUserId=@"paul";
-    self.chatMateId=@"stan";
+    self.chatMateId=@"userA";
 #else
-    self.myUserId=@"stan";
+    self.myUserId=@"userA";
     self.chatMateId=@"paul";
 #endif
     historicalMessageArray = [NSMutableArray new];
     
     //[[PLIMLibrayAPI defaultLibrary]initSinchClient:self.myUserId];
+    
     [[PLIMLibrayAPI defaultLibrary]initSinchClientForUser:self.myUserId ChatMate:self.chatMateId];
     
-    [[PLIMLibrayAPI defaultLibrary]subscribeLatestMessageForSubscriber:self Storage:historicalMessageArray Action:@selector(RefreshTableView)];
-
 }
 
 
 -(void)viewWillDisappear:(BOOL)animated{
    [self.tabBarController.tabBar setHidden:NO];
    [[NSNotificationCenter defaultCenter]removeObserver:self];
+}
+
+-(void)viewDidAppear:(BOOL)animated{
+    
+    [[PLIMLibrayAPI defaultLibrary]subscribeLatestMessageForSubscriber:self Storage:historicalMessageArray Action:@selector(RefreshTableView)];
+    
 }
 
 

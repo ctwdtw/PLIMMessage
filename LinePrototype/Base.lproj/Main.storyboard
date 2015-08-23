@@ -165,7 +165,6 @@
                                                 </prototypes>
                                             </tableView>
                                         </subviews>
-                                        <color key="backgroundColor" red="0.71099037840000001" green="1" blue="0.55206037659999996" alpha="1" colorSpace="calibratedRGB"/>
                                         <gestureRecognizers/>
                                         <constraints>
                                             <constraint firstAttribute="bottom" secondItem="fFe-Md-py6" secondAttribute="bottom" id="5zl-K5-v35"/>
