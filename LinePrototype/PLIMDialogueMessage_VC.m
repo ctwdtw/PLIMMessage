@@ -121,7 +121,7 @@
     
 #if 1
     self.myUserId=@"paul";
-    self.chatMateId=@"userA";
+    self.chatMateId=@"stan";
 #else
     self.myUserId=@"stan";
     self.chatMateId=@"paul";
@@ -132,8 +132,6 @@
     [[PLIMLibrayAPI defaultLibrary]initSinchClientForUser:self.myUserId ChatMate:self.chatMateId];
     
     [[PLIMLibrayAPI defaultLibrary]subscribeLatestMessageForSubscriber:self Storage:historicalMessageArray Action:@selector(RefreshTableView)];
-
-  
 
 }
 

@@ -49,7 +49,7 @@
     
     // Configure the cell...
     
-    cell.textLabel.text = @"123";
+    cell.textLabel.text = @"Friend Name";
     
     return cell;
 }
