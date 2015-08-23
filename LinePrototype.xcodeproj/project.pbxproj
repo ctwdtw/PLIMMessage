@@ -7,13 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4CCABDD562287F02FAAC3C90 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CDC719643444AC5BBD366F1E /* libPods.a */; };
 		633C5FD81B84229B00E8132E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 633C5FD71B84229B00E8132E /* main.m */; };
 		633C5FDB1B84229B00E8132E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 633C5FDA1B84229B00E8132E /* AppDelegate.m */; };
-		633C5FDE1B84229B00E8132E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 633C5FDD1B84229B00E8132E /* ViewController.m */; };
 		633C5FE11B84229B00E8132E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 633C5FDF1B84229B00E8132E /* Main.storyboard */; };
 		633C5FE31B84229B00E8132E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 633C5FE21B84229B00E8132E /* Images.xcassets */; };
 		633C5FE61B84229B00E8132E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 633C5FE41B84229B00E8132E /* LaunchScreen.xib */; };
 		633C5FF21B84229B00E8132E /* LinePrototypeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 633C5FF11B84229B00E8132E /* LinePrototypeTests.m */; };
+		633C60061B842EBD00E8132E /* PLIMDialogueList_TVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 633C60051B842EBD00E8132E /* PLIMDialogueList_TVC.m */; };
+		633C600C1B84A75F00E8132E /* PLIMDialogueMessage_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 633C600B1B84A75F00E8132E /* PLIMDialogueMessage_VC.m */; };
+		633C600F1B84A8E800E8132E /* PLIMDialogueCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 633C600E1B84A8E800E8132E /* PLIMDialogueCell.m */; };
+		633C60171B85767200E8132E /* PLIMMessageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 633C60161B85767200E8132E /* PLIMMessageManager.m */; };
+		638CA0931B86C5F600B36E1E /* PLIMLibrayAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 638CA0921B86C5F600B36E1E /* PLIMLibrayAPI.m */; };
+		638CA0971B87023100B36E1E /* PLIMMessageDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 638CA0961B87023100B36E1E /* PLIMMessageDelegate.m */; };
+		638CA0A41B87271F00B36E1E /* PLIMChatMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 638CA0A31B87271F00B36E1E /* PLIMChatMessage.m */; };
+		638CA0A81B89DD4900B36E1E /* PLIMdBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 638CA0A71B89DD4900B36E1E /* PLIMdBManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +35,37 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E9CD2058740E664F3DC5C23 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		4734339D7AF5C590FE4BE6E5 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		633C5FD21B84229B00E8132E /* LinePrototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinePrototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		633C5FD61B84229B00E8132E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		633C5FD71B84229B00E8132E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		633C5FD91B84229B00E8132E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		633C5FDA1B84229B00E8132E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		633C5FDC1B84229B00E8132E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		633C5FDD1B84229B00E8132E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		633C5FE01B84229B00E8132E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		633C5FE21B84229B00E8132E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		633C5FE51B84229B00E8132E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		633C5FEB1B84229B00E8132E /* LinePrototypeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinePrototypeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		633C5FF01B84229B00E8132E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		633C5FF11B84229B00E8132E /* LinePrototypeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinePrototypeTests.m; sourceTree = "<group>"; };
+		633C60041B842EBD00E8132E /* PLIMDialogueList_TVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PLIMDialogueList_TVC.h; path = ../PLIMDialogueList_TVC.h; sourceTree = "<group>"; };
+		633C60051B842EBD00E8132E /* PLIMDialogueList_TVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PLIMDialogueList_TVC.m; path = ../PLIMDialogueList_TVC.m; sourceTree = "<group>"; };
+		633C600A1B84A75F00E8132E /* PLIMDialogueMessage_VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLIMDialogueMessage_VC.h; sourceTree = "<group>"; };
+		633C600B1B84A75F00E8132E /* PLIMDialogueMessage_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLIMDialogueMessage_VC.m; sourceTree = "<group>"; };
+		633C600D1B84A8E800E8132E /* PLIMDialogueCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLIMDialogueCell.h; sourceTree = "<group>"; };
+		633C600E1B84A8E800E8132E /* PLIMDialogueCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLIMDialogueCell.m; sourceTree = "<group>"; };
+		633C60151B85767200E8132E /* PLIMMessageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLIMMessageManager.h; sourceTree = "<group>"; };
+		633C60161B85767200E8132E /* PLIMMessageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLIMMessageManager.m; sourceTree = "<group>"; };
+		633C60191B857B3B00E8132E /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Config.h; path = LinePrototypeTests/Config.h; sourceTree = SOURCE_ROOT; };
+		638CA0911B86C5F600B36E1E /* PLIMLibrayAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLIMLibrayAPI.h; sourceTree = "<group>"; };
+		638CA0921B86C5F600B36E1E /* PLIMLibrayAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLIMLibrayAPI.m; sourceTree = "<group>"; };
+		638CA0951B87023100B36E1E /* PLIMMessageDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLIMMessageDelegate.h; sourceTree = "<group>"; };
+		638CA0961B87023100B36E1E /* PLIMMessageDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLIMMessageDelegate.m; sourceTree = "<group>"; };
+		638CA0A21B87271F00B36E1E /* PLIMChatMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLIMChatMessage.h; sourceTree = "<group>"; };
+		638CA0A31B87271F00B36E1E /* PLIMChatMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLIMChatMessage.m; sourceTree = "<group>"; };
+		638CA0A61B89DD4900B36E1E /* PLIMdBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLIMdBManager.h; sourceTree = "<group>"; };
+		638CA0A71B89DD4900B36E1E /* PLIMdBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLIMdBManager.m; sourceTree = "<group>"; };
+		CDC719643444AC5BBD366F1E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CCABDD562287F02FAAC3C90 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +93,8 @@
 				633C5FD41B84229B00E8132E /* LinePrototype */,
 				633C5FEE1B84229B00E8132E /* LinePrototypeTests */,
 				633C5FD31B84229B00E8132E /* Products */,
+				EF93795700A2ED6A5FD98BA0 /* Pods */,
+				E5CAAC97905F4141424A1CB7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,11 +112,12 @@
 			children = (
 				633C5FD91B84229B00E8132E /* AppDelegate.h */,
 				633C5FDA1B84229B00E8132E /* AppDelegate.m */,
-				633C5FDC1B84229B00E8132E /* ViewController.h */,
-				633C5FDD1B84229B00E8132E /* ViewController.m */,
-				633C5FDF1B84229B00E8132E /* Main.storyboard */,
+				633C60111B84AA0800E8132E /* Controller */,
+				633C60101B84A9D300E8132E /* View */,
+				633C60181B85768000E8132E /* Model */,
 				633C5FE21B84229B00E8132E /* Images.xcassets */,
 				633C5FE41B84229B00E8132E /* LaunchScreen.xib */,
+				633C5FDF1B84229B00E8132E /* Main.storyboard */,
 				633C5FD51B84229B00E8132E /* Supporting Files */,
 			);
 			path = LinePrototype;
@@ -96,6 +126,9 @@
 		633C5FD51B84229B00E8132E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				638CA0A21B87271F00B36E1E /* PLIMChatMessage.h */,
+				638CA0A31B87271F00B36E1E /* PLIMChatMessage.m */,
+				633C60191B857B3B00E8132E /* Config.h */,
 				633C5FD61B84229B00E8132E /* Info.plist */,
 				633C5FD71B84229B00E8132E /* main.m */,
 			);
@@ -119,6 +152,66 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		633C60101B84A9D300E8132E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				633C600D1B84A8E800E8132E /* PLIMDialogueCell.h */,
+				633C600E1B84A8E800E8132E /* PLIMDialogueCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		633C60111B84AA0800E8132E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				633C60041B842EBD00E8132E /* PLIMDialogueList_TVC.h */,
+				633C60051B842EBD00E8132E /* PLIMDialogueList_TVC.m */,
+				633C600A1B84A75F00E8132E /* PLIMDialogueMessage_VC.h */,
+				633C600B1B84A75F00E8132E /* PLIMDialogueMessage_VC.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		633C60181B85768000E8132E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				638CA0911B86C5F600B36E1E /* PLIMLibrayAPI.h */,
+				638CA0921B86C5F600B36E1E /* PLIMLibrayAPI.m */,
+				633C60151B85767200E8132E /* PLIMMessageManager.h */,
+				633C60161B85767200E8132E /* PLIMMessageManager.m */,
+				638CA0A61B89DD4900B36E1E /* PLIMdBManager.h */,
+				638CA0A71B89DD4900B36E1E /* PLIMdBManager.m */,
+				638CA0A51B8820E800B36E1E /* MessageManagerDelegate(Unused) */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		638CA0A51B8820E800B36E1E /* MessageManagerDelegate(Unused) */ = {
+			isa = PBXGroup;
+			children = (
+				638CA0951B87023100B36E1E /* PLIMMessageDelegate.h */,
+				638CA0961B87023100B36E1E /* PLIMMessageDelegate.m */,
+			);
+			name = "MessageManagerDelegate(Unused)";
+			sourceTree = "<group>";
+		};
+		E5CAAC97905F4141424A1CB7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDC719643444AC5BBD366F1E /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF93795700A2ED6A5FD98BA0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0E9CD2058740E664F3DC5C23 /* Pods.debug.xcconfig */,
+				4734339D7AF5C590FE4BE6E5 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +219,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 633C5FF51B84229B00E8132E /* Build configuration list for PBXNativeTarget "LinePrototype" */;
 			buildPhases = (
+				93C30DEB12BDE5A946F485F6 /* Check Pods Manifest.lock */,
 				633C5FCE1B84229B00E8132E /* Sources */,
 				633C5FCF1B84229B00E8132E /* Frameworks */,
 				633C5FD01B84229B00E8132E /* Resources */,
+				D75604AB3C6FEF1CEFBCFA2D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,14 +309,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		93C30DEB12BDE5A946F485F6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D75604AB3C6FEF1CEFBCFA2D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		633C5FCE1B84229B00E8132E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				633C5FDE1B84229B00E8132E /* ViewController.m in Sources */,
+				638CA0931B86C5F600B36E1E /* PLIMLibrayAPI.m in Sources */,
 				633C5FDB1B84229B00E8132E /* AppDelegate.m in Sources */,
+				638CA0971B87023100B36E1E /* PLIMMessageDelegate.m in Sources */,
 				633C5FD81B84229B00E8132E /* main.m in Sources */,
+				638CA0A41B87271F00B36E1E /* PLIMChatMessage.m in Sources */,
+				638CA0A81B89DD4900B36E1E /* PLIMdBManager.m in Sources */,
+				633C60061B842EBD00E8132E /* PLIMDialogueList_TVC.m in Sources */,
+				633C60171B85767200E8132E /* PLIMMessageManager.m in Sources */,
+				633C600C1B84A75F00E8132E /* PLIMDialogueMessage_VC.m in Sources */,
+				633C600F1B84A8E800E8132E /* PLIMDialogueCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,7 +434,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -337,7 +472,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -347,9 +482,11 @@
 		};
 		633C5FF61B84229B00E8132E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E9CD2058740E664F3DC5C23 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LinePrototype/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -357,9 +494,11 @@
 		};
 		633C5FF71B84229B00E8132E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4734339D7AF5C590FE4BE6E5 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LinePrototype/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -418,6 +557,7 @@
 				633C5FF71B84229B00E8132E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		633C5FF81B84229B00E8132E /* Build configuration list for PBXNativeTarget "LinePrototypeTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +566,7 @@
 				633C5FFA1B84229B00E8132E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DialogueList_TVC.h
 //  LinePrototype
 //
 //  Created by Paul Lee on 2015/8/19.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface PLIMDialogueList_TVC : UITableViewController
 
 @end
-
